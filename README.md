@@ -24,7 +24,11 @@ Blockchain - All
     - [1.7.1. Problem](#171-problem)
   - [1.8. Tools](#18-tools)
 
+---
+## Reference 
 
+- https://roadmap.sh/blockchain
+- https://www.blockchain.education/
 
 ---
 ## 1.2. Basic Blockchain Knowledge
@@ -35,16 +39,40 @@ Blockchain - All
 
 > A digital database orr ledger that is distributed among the nodes of peer-to-peer network
 
-- Decentralization
+![image](https://user-images.githubusercontent.com/108725538/203267392-687a7551-109b-4e1f-8582-b83ab8555a1e.png)
+
+
+- Decentralized - Distributed - Centralized
+
+![image](https://user-images.githubusercontent.com/108725538/203267830-5e738f9d-cfec-4441-9bc2-0051be216634.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203267930-9e9c300e-1d02-4949-9f10-606bfdab7ab7.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203268782-707959cf-2cf6-4bfb-89e3-415be7825f29.png)
 
 - Why it matters?
 
 - Blockchain structure
+  - Nodes within P2P network
+  - Properties of block & genesis block
+  - Transactions within the ledger
+  - The validation process - mining
+  - The “consensus” within a blockchain architecture
+    - Proof-of-work
+- How blockchain work: Example 
+
+![image](https://user-images.githubusercontent.com/108725538/203269843-ddbb108f-3ae6-4605-9790-caf8c8210c3c.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203270052-cac80484-f0e0-41fe-ba5e-eba40661c555.png)
 
 - Basic Blockchain Operations
-
+  - Bitcoin blockchain transactions 
+  - Ethereum blockchain transactions
+  
+  
 - Application and uses of Blockchain technology
 
+![image](https://user-images.githubusercontent.com/108725538/203267465-94873e81-13ca-409f-a7ab-831de6c8cc33.png)
 
 
 ---
