@@ -175,6 +175,13 @@ Blockchain - All
   - [Towards Automated Reentrancy Detection for Smart Contracts Based on Sequential Models](https://ieeexplore.ieee.org/document/8970384)
 
 
+### Related Work 
+
+
+| Model | Method | Capability | Technology | Input | Output | Dataset | evaluate |
+|---| ----| ---| ------| ----| ---| ---| -----|
+|MANDO | Learning heterogeneous graphs | | | source code | 493 | 90.51%|
+
 ### 1.6.9. Reference 
 
 
