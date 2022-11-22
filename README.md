@@ -2,7 +2,7 @@
 Blockchain - All
 
 ## 1.1. Table of contents
-- [1. Blockchain_technologies](#1-blockchain_technologies)
+- [1. Blockchain\_technologies](#1-blockchain_technologies)
   - [1.1. Table of contents](#11-table-of-contents)
   - [1.2. Basic Blockchain Knowledge](#12-basic-blockchain-knowledge)
   - [1.3. Blockchain general knowledge](#13-blockchain-general-knowledge)
@@ -31,7 +31,19 @@ Blockchain - All
 
 :pushpin: Outline
 
-- 
+- What is Blockchain?
+
+> A digital database orr ledger that is distributed among the nodes of peer-to-peer network
+
+- Decentralization
+
+- Why it matters?
+
+- Blockchain structure
+
+- Basic Blockchain Operations
+
+- Application and uses of Blockchain technology
 
 
 
