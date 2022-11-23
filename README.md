@@ -196,6 +196,20 @@ Blockchain - All
 
 
 ---
+##  Smart Contracct security in Blockchain - Workshop 
+
+- Anh Trần Ngọc Tín và Nguyễn Minh Quang, BK HCM
+- Verichains 
+  - https://www.verichains.io/publications
+- Solidity basic
+- Common vulnerabilies
+- https://blog.verichains.io/
+- https://github.com/verichains/public-audit-reports
+- https://www.verichains.io/
+- https://www.linkedin.com/company/verichains/
+
+
+---
 ## 1.8. Tools
 
 | Name                                   | Github link                                           | Describe |
