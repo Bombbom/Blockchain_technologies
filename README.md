@@ -195,8 +195,58 @@ Blockchain - All
 - [ ] Record and Reward Federated Learning Contributions with Blockchain
 
 ### 1.8.1. Problem
+Ngữ cảnh:
+- Nhiều dữ liệu với hình thức khác nhau (mạng xh, mẫu mua hàng, hồ sơ chăm sóc sức khoẻ,..) của người dùng bị thu thập và sử dụng phân tích dữ liệu cho ML
+- Cho đi nguồn dữ liệu mà không có phần thưởng
+- Tổ chức có toàn quyền truy cập vào dữ liệu đó vào đó -> có thể là hành vi xâm nhập quyền riêng tư
+
+sử dụng Federated Learning: phương pháp giảm thiểu vấn đề quyền sở hữu và quyền riêng tư
+- gửi training model cho người dùng để đào tạo trên dữ liệu cục bộ của họ
+- người dùng gửi lại weights để cập nhật mô hình
+-> Người dùng không bao giờ tiết lộ dữ liệu cá nhân cho chủ sở hữu
+sử dụng Blockchain: - để tạo điều kiện thuận lợi cho việc tải lên (uploading) và theo dõi các bản cập nhật từ người dùng và thưởng cho người dùng dữ liệu mà họ đã sử dụng trong tính toán 
+			  - hiển thị các bản cập nhật không thể thay đổi nên an toàn
+-> kết hợp quyền riêng tư và bảo mật dữ liệu cùng với phần thưởng cho các video tải lên khiến hệ thống trở nên phổ biến, thu thập được nhiều dữ liệu hơn
+sử dụng EOS blockchain và IPFS để ghi lại các bản cập nhật đã tải lên và thưởng cho người dùng dựa trên chi phí đào tạo
+đề xuất sơ đồ CSVES để chỉ xác thực và thưởng cho các bản cập nhật được tải lên có giá trị thông qua SC
+Triển khai đơn giản với Python và Hyperledger Fabric để xác minh tính khả dụng của hệ thóng
+
+Các model hiện có:
+BlockFL sử dụng blockchain, thưởng cho người dùng cho các bản cập nhật cục bộ tỷ lệ thuận với số lượng điểm cục bộ (local data points) 
+DeepChain đề xuất 1 cơ chế blockchain dựa trên khuyến khích để thưởng /trừng phạt cho người tham gia trung thực/không trung thực
+-> Không đúng với thực tế
+....
+=> Hạn chế của các model trên là không chính xác hoặc không hiệu quả trong việc thưởng cho những đóng góp của người dùng và thiếu khả năng mở rộng dữ liệu trên blockchain
 
 
+EOS blockchain: - một public blockchain không có phí giao dịch -> khuyến khích người dùng sử dụng
+		    - sử dụng set 21 producers để tạo các block đồng thời, tạo blockchain có khả năng mở rộng có thể xử lý hàng triệu giao dịch mỗi giây
+	
+Hạn chế của người dùng thông qua SC:
+- Ngay cả khi chỉ tải gradient lên thì chủ sở hữu O hoặc bên khác vẫn có thể suy ra dữ liệu của người dùng
+- mặc dù sử dụng public blockchain nhưng toàn bộ gradients và training model đều không có trên blockchain -> ẩn (hidden)
+- Quyền riêng tu của mô hình đào tạo đạt được thông qua sử dụng Paullier's Cryptosystem - một sơ đồ mã hoá homomorphic được sử dụng trong học máy phân tán
+- Quyền riêng tư của gradient đặt được bằng cách tải toàn bộ gradient lên off-chain trên IPFS mà chỉ O mới có thể truy cập được
+
+Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạt động với triển khai FL trong Python để ghi lại và thưởng cho các record and reward gradients uploads hay không
+
+### Mô hình
+![image](https://user-images.githubusercontent.com/108725538/203587328-a5abe2d7-ad54-4f88-ad46-f42a41ccb87e.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203587407-c34fc618-aef3-493c-9a02-a67eb18f77d8.png)
+
+
+![image](https://user-images.githubusercontent.com/108725538/203587434-e14dff02-30b7-4f1f-9fda-b7c3940306c2.png)
+
+- System and Blockchain Architecture
+- Global Model
+- Smart Contracts
+- System Design and Workflow
+- Data Validity and Quality
+- Restrictions on Users via Smart Contracts
+- PROOF OF CONCEPT
+
+:pushpin: Reppositories Project 
 
 ---
 ##  1.9. Smart Contracct security in Blockchain - Workshop 
