@@ -4,34 +4,37 @@ Blockchain - All
 ## 1.1. Table of contents
 - [1. Blockchain\_technologies](#1-blockchain_technologies)
   - [1.1. Table of contents](#11-table-of-contents)
-  - [1.2. Basic Blockchain Knowledge](#12-basic-blockchain-knowledge)
-  - [1.3. Blockchain general knowledge](#13-blockchain-general-knowledge)
-  - [1.4. Bitcoin](#14-bitcoin)
-  - [1.5. Smart Contracts](#15-smart-contracts)
-  - [1.6. (Ethereum) Smart Contracts Vulnerability Detection](#16-ethereum-smart-contracts-vulnerability-detection)
-    - [1.6.1. Problem](#161-problem)
-    - [1.6.2. Vulnerability of Smart Contract](#162-vulnerability-of-smart-contract)
-    - [1.6.3. Survey](#163-survey)
-    - [1.6.4. Static Vulnerability Detection Methods](#164-static-vulnerability-detection-methods)
-    - [1.6.5. Dynamic Vulnerability Detection Methods](#165-dynamic-vulnerability-detection-methods)
-    - [1.6.6. Machine Learning for Vulnerability Detection](#166-machine-learning-for-vulnerability-detection)
-      - [1.6.6.1. Dataset: Source code - Bytecode](#1661-dataset-source-code---bytecode)
-      - [1.6.6.2. Dataset: Simplified and Extract Features](#1662-dataset-simplified-and-extract-features)
-    - [1.6.7. ContractWard Models](#167-contractward-models)
-    - [1.6.8. BiLSTM-Attention](#168-bilstm-attention)
-    - [1.6.9. Reference](#169-reference)
-  - [1.7. Decentralized Learning for Malware Detection with Blockchain](#17-decentralized-learning-for-malware-detection-with-blockchain)
+  - [1.2. Reference](#12-reference)
+  - [1.3. Basic Blockchain Knowledge](#13-basic-blockchain-knowledge)
+  - [1.4. Blockchain general knowledge](#14-blockchain-general-knowledge)
+  - [1.5. Bitcoin](#15-bitcoin)
+  - [1.6. Smart Contracts](#16-smart-contracts)
+  - [1.7. (Ethereum) Smart Contracts Vulnerability Detection](#17-ethereum-smart-contracts-vulnerability-detection)
     - [1.7.1. Problem](#171-problem)
-  - [1.8. Tools](#18-tools)
+    - [1.7.2. Vulnerability of Smart Contract](#172-vulnerability-of-smart-contract)
+    - [1.7.3. Survey](#173-survey)
+    - [1.7.4. Static Vulnerability Detection Methods](#174-static-vulnerability-detection-methods)
+    - [1.7.5. Dynamic Vulnerability Detection Methods](#175-dynamic-vulnerability-detection-methods)
+    - [1.7.6. Machine Learning for Vulnerability Detection](#176-machine-learning-for-vulnerability-detection)
+      - [1.7.6.1. Dataset: Source code - Bytecode](#1761-dataset-source-code---bytecode)
+      - [1.7.6.2. Dataset: Simplified and Extract Features](#1762-dataset-simplified-and-extract-features)
+    - [1.7.7. ContractWard Models](#177-contractward-models)
+    - [1.7.8. BiLSTM-Attention](#178-bilstm-attention)
+    - [1.7.9. Related Work](#179-related-work)
+    - [1.7.10. Reference](#1710-reference)
+  - [1.8. Decentralized Learning for Malware Detection with Blockchain](#18-decentralized-learning-for-malware-detection-with-blockchain)
+    - [1.8.1. Problem](#181-problem)
+  - [1.9. Smart Contracct security in Blockchain - Workshop](#19-smart-contracct-security-in-blockchain---workshop)
+  - [1.10. Tools](#110-tools)
 
 ---
-## Reference 
+## 1.2. Reference 
 
 - https://roadmap.sh/blockchain
 - https://www.blockchain.education/
 
 ---
-## 1.2. Basic Blockchain Knowledge
+## 1.3. Basic Blockchain Knowledge
 
 :pushpin: Outline
 
@@ -76,26 +79,26 @@ Blockchain - All
 
 
 ---
-## 1.3. Blockchain general knowledge
+## 1.4. Blockchain general knowledge
 :pushpin: Outline
 
 
 ---
-## 1.4. Bitcoin
+## 1.5. Bitcoin
 
 ---
-## 1.5. Smart Contracts 
+## 1.6. Smart Contracts 
 
 ---
-## 1.6. (Ethereum) Smart Contracts Vulnerability Detection
+## 1.7. (Ethereum) Smart Contracts Vulnerability Detection
 
-### 1.6.1. Problem
+### 1.7.1. Problem
 
 - The DAO attacks
 - The Parity bug
 
 
-### 1.6.2. Vulnerability of Smart Contract
+### 1.7.2. Vulnerability of Smart Contract
 
 :book: Reentrancy
 
@@ -124,13 +127,13 @@ Blockchain - All
 :book: Unknown Unknowns
 
 
-### 1.6.3. Survey
+### 1.7.3. Survey
 
 - [ ] Systematic Review of Security Vulnerabilities in Ethereum Blockchain Smart Contract
 - [ ] The State of Ethereum Smart Contracts Security: Vulnerabilities, Countermeasures, and Tool Support
 - [ ] Survey on Blockchain based Smart Contracts: Technical Aspects and Future Research
 
-### 1.6.4. Static Vulnerability Detection Methods
+### 1.7.4. Static Vulnerability Detection Methods
 
 :book: Information Flow Analysis-based
 
@@ -142,20 +145,20 @@ Blockchain - All
 
 
 
-### 1.6.5. Dynamic Vulnerability Detection Methods
+### 1.7.5. Dynamic Vulnerability Detection Methods
 
 :book: Fuzzing-based
 
 :book: Validation-based
 
-### 1.6.6. Machine Learning for Vulnerability Detection
+### 1.7.6. Machine Learning for Vulnerability Detection
 
-#### 1.6.6.1. Dataset: Source code - Bytecode
+#### 1.7.6.1. Dataset: Source code - Bytecode
 
 - GoogleBig Query
 - Verified Source code in EtherScan.io
 
-#### 1.6.6.2. Dataset: Simplified and Extract Features
+#### 1.7.6.2. Dataset: Simplified and Extract Features
 
 - N-grams
 
@@ -163,40 +166,40 @@ Blockchain - All
 
 - vectorized smart contract snippet 
 
-### 1.6.7. ContractWard Models
+### 1.7.7. ContractWard Models
 
 - Reference:
   - [ContractWard: Automated Vulnerability Detection Models for Ethereum Smart Contracts](https://ieeexplore.ieee.org/document/8967006)
   - 
 
-### 1.6.8. BiLSTM-Attention
+### 1.7.8. BiLSTM-Attention
 
 - Reference:
   - [Towards Automated Reentrancy Detection for Smart Contracts Based on Sequential Models](https://ieeexplore.ieee.org/document/8970384)
 
 
-### Related Work 
+### 1.7.9. Related Work 
 
 
 | Model | Method | Capability | Technology | Input | Output | Dataset | evaluate |
 |---| ----| ---| ------| ----| ---| ---| -----|
 |MANDO | Learning heterogeneous graphs | | | source code | 493 | 90.51%|
 
-### 1.6.9. Reference 
+### 1.7.10. Reference 
 
 
 ---
-## 1.7. Decentralized Learning for Malware Detection with Blockchain
+## 1.8. Decentralized Learning for Malware Detection with Blockchain
 
 - [ ] Collective Intelligence: Decentralized Learning for Android Malware Detection in IoT with Blockchain
 - [ ] Record and Reward Federated Learning Contributions with Blockchain
 
-### 1.7.1. Problem
+### 1.8.1. Problem
 
 
 
 ---
-##  Smart Contracct security in Blockchain - Workshop 
+##  1.9. Smart Contracct security in Blockchain - Workshop 
 
 - Anh Trần Ngọc Tín và Nguyễn Minh Quang, BK HCM
 - Verichains 
@@ -210,7 +213,7 @@ Blockchain - All
 
 
 ---
-## 1.8. Tools
+## 1.10. Tools
 
 | Name                                   | Github link                                           | Describe |
 | -------------------------------------- | ----------------------------------------------------- | -------- |
