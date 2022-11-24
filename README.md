@@ -33,6 +33,29 @@ Blockchain - All
 - https://roadmap.sh/blockchain
 - https://www.blockchain.education/
 
+
+:book: Book
+
+- Mastering Bitcoin Programming the Open Blockchain
+- The Blockchain Developer by Elad Elrom
+- Mastering Ethereum Building Smart Contracts and DApps
+- Mastering Blockchain Distributed ledger technology, decentralization, and smart contracts explained (Imran Bashir)
+
+:book: Paper
+
+- 
+- 
+
+:book: Youtube
+
+- 
+- 
+
+:book: Github
+
+- 
+-
+
 ---
 ## 1.3. Basic Blockchain Knowledge
 
