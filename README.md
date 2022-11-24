@@ -37,9 +37,18 @@ Blockchain - All
 :book: Book
 
 - Mastering Bitcoin Programming the Open Blockchain
+![image](https://user-images.githubusercontent.com/108725538/203697985-956ee192-7378-4bf8-8550-11e93168e51b.png)
+
 - The Blockchain Developer by Elad Elrom
+![image](https://user-images.githubusercontent.com/108725538/203698073-4f33e9f9-c82f-4f38-aa86-164d7c535803.png)
+
 - Mastering Ethereum Building Smart Contracts and DApps
+![image](https://user-images.githubusercontent.com/108725538/203698113-880f7f83-504a-4061-bdfe-405e94865e87.png)
+
+
 - Mastering Blockchain Distributed ledger technology, decentralization, and smart contracts explained (Imran Bashir)
+![image](https://user-images.githubusercontent.com/108725538/203698151-c6a96075-53be-482c-858c-4ddcbeb9f6b1.png)
+
 
 :book: Paper
 
