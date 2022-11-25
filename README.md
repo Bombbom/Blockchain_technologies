@@ -120,7 +120,15 @@ Blockchain - All
 ---
 ## 1.4. Blockchain general knowledge
 :pushpin: Outline
-
+- Storage 
+- Mining and incentive models
+- Decentralization vs trust
+- Blockchain forking
+- Cryptocurrencies
+- Cryptowallets
+- Cryptography
+- Consensus protocols
+- Blockchain interoperability
 
 ---
 ## 1.5. Implementing Your Own Blockchain Using Python
@@ -414,6 +422,36 @@ def sync():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(sys.argv[1]))
 ```
+
+---
+## Oracles 
+
+:pushpin: Outline
+- Hybrid Smart Contracts
+- Chainlink
+- Oracle Networks
+
+:bookmark: [What Is a Blockchain Oracle?](https://chain.link/education/blockchain-oracles)
+- Blockchain oracle: là một third-party service cho phép smart contracts kết nối với thế giới bên ngoài
+- Có các layer: queries, verifies, authenticates 
+
+![image](https://user-images.githubusercontent.com/108725538/203967524-9c5496ea-3fe5-42d6-97d2-ffe66fd8a2a2.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203967545-15d3c768-4d34-4a41-823e-c86bbc95e3ea.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203967560-d6fda0ed-5526-4acc-8695-c3fe0fde8899.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203967580-df509dd1-a630-4f05-bb83-99b3f3511f96.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203967589-266e159d-a0e3-4b3d-a555-5859fe222d70.png)
+
+![image](https://user-images.githubusercontent.com/108725538/203967614-3d6bac48-a925-47a2-937e-61aae315d001.png)
+
+
+:bookmark: Hybrid Smart Contracts 
+
+
+
 ---
 ## 1.6. Bitcoin
 
