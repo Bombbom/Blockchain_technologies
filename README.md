@@ -512,7 +512,7 @@ if __name__ == '__main__':
 
 ---
 ## 1.6. Bitcoin
-
+? Bitcoin was one of the first protocols to use this revolutionary technology called "blockchain". Satoshi Nakamoto released Bitcoin's white paper, and it outlined how bitcoin can be used to make peer-to-peer transactions in a decentralized network. This network is powered by cryptography. It allows people to engage in censorship-resistant finance in a decentralized manner. Because of some of bitcoin's characteristics, many people regard it as a superior store of value to other assets such as gold.That's why it is commonly referred to as "digital gold." Similar to gold, there's a scarce and set amount of it on the planet, and people use it to buy and sell, similar to other assets. You can read more about the original vision in the [white paper] (https://bitcoinwhitepaper.co/).
 
 ---
 ## EVM-based Blokchain
