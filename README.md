@@ -69,8 +69,9 @@ Blockchain - All
 
 :book: Github
 
+- https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer 
+- https://github.com/spo0ds/Deep-Dive-into-DEFI
 - 
--
 
 ---
 ## 1.3. Basic Blockchain Knowledge
@@ -129,6 +130,63 @@ Blockchain - All
 - Cryptography
 - Consensus protocols
 - Blockchain interoperability
+
+
+:bookmark: 
+
+> Unlike a centralized server operated by a single company or organization, decentralized storage systems consist of a peer-to-peer network of user-operators who hold a portion (1 phần) of the overall data (dữ liệu tổng thể), creating a resilient (đụng độ) file storage sharing system.
+
+- Blockchain storage là gì
+- Decentralized storage 
+- pesistence mechanism/incentive structure
+- Data retention enforcement
+- Decentrality
+- Consensus
+
+- How IPFS works: https://docs.ipfs.tech/
+> IPFS is a peer-to-peer (p2p) storage network.
+
+
+:bookmark: Mining and incentive models
+
+:bookmark: Blokchain forking: xảy ra khi làm thay đổi giao thức hoặc các tập quy tắc cơ bản
+
+- fork, forking ?
+- [hard fork](https://www.investopedia.com/terms/h/hard-fork.asp): Hard Fork là thuật ngữ chỉ một blockchain tách ra thành hai chuỗi. 
+> Bitcoin Hard Fork đơn giản là sự kiện thay đổi các quy tắc của giao thức Bitcoin khiến cho những khối (block) và giao dịch (transaction) cũ bị vô hiệu hoá. Một khi Hard Fork diễn ra, tất cả các nodes và người dùng bắt buộc phải nâng cấp phần mềm clients bản mới nhất. Trong trường hợp, một số node không chấp nhận quy tắc mới mà vẫn dùng quy tắc cũ thì mạng lưới sẽ xảy ra sự kiện gọi là Split Chain - chia tách chuỗi khối thành hai chuỗi khối khác nhau với tầm nhìn và sứ mệnh khác nhau.
+> 
+
+
+![image](https://user-images.githubusercontent.com/108725538/204032039-b728fe42-d39d-4642-835e-05b61f4ffc4f.png)
+
+	- https://coin98.net/btc-hardfork-la-gi
+	- https://coin98.net/ethereum-hard-fork
+
+:bookmark: Cryptocurrencies
+> A cryptocurrency, crypto-currency, or crypto is a digital currency designed to work as a medium of exchange through a blockchain, which is not reliant on any central authority, such as a government or bank, to uphold or maintain it.
+
+- https://www.youtube.com/watch?v=rYQgy8QDEBI
+
+:bookmark: Cryptowallets
+> A cryptocurrency wallet is an application that functions as a wallet for your cryptocurrency.
+
+![image](https://user-images.githubusercontent.com/108725538/204032703-712104f2-ad5b-4941-a94c-ef409d8dd391.png)
+
+![image](https://user-images.githubusercontent.com/108725538/204032726-5de9ceca-ebfa-4156-babc-a01232a7d329.png)
+
+- NFT Wallets
+
+:bookmark: Consensus protocols 
+> Thuật toán đồng thuật của blockchain là cơ chế đảm bảo các giao dịch được tạo ra trên blockchain là đúng đắn, trung thực và minh bạch. Về bản chất, blockchain bao gồm nhiều node kết hợp lại tạo ra một mạng lưới. Để một giao dịch được ghi lại trên blockchain, nó phải được đồng ý đồng thời bởi tất cả các node trên mạng lưới.
+
+![image](https://user-images.githubusercontent.com/108725538/204032894-ce4ad3c9-3a88-43b1-8289-8d5b18990dd4.png)
+
+![image](https://user-images.githubusercontent.com/108725538/204032936-821acc18-7b2d-4190-9fbb-4c1edcb03123.png)
+
+
+:bookmark: Blockchain interoperability
+> The concept of “blockchain interoperability” refers to the ability of different blockchain networks to exchange and leverage data between one another and to move unique types of digital assets between the networks’ respective blockchains.
+
 
 ---
 ## 1.5. Implementing Your Own Blockchain Using Python
@@ -455,6 +513,17 @@ if __name__ == '__main__':
 ---
 ## 1.6. Bitcoin
 
+
+---
+## EVM-based Blokchain
+
+![image](https://user-images.githubusercontent.com/108725538/204033182-efc3639c-a49c-4572-8bd8-0cde3f22147b.png)
+
+
+
+---
+## Ethereum
+
 ---
 ## 1.7. Smart Contracts 
 
@@ -629,6 +698,11 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 - https://github.com/verichains/public-audit-reports
 - https://www.verichains.io/
 - https://www.linkedin.com/company/verichains/
+
+
+- https://cystack.net/blog
+- https://github.com/cystack/security-audit-reports/tree/main/smart-contracts
+- 
 
 
 ---
