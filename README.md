@@ -8,26 +8,29 @@ Blockchain - All
   - [1.3. Basic Blockchain Knowledge](#13-basic-blockchain-knowledge)
   - [1.4. Blockchain general knowledge](#14-blockchain-general-knowledge)
   - [1.5. Implementing Your Own Blockchain Using Python](#15-implementing-your-own-blockchain-using-python)
-  - [1.6. Bitcoin](#16-bitcoin)
-  - [1.7. Smart Contracts](#17-smart-contracts)
-  - [1.8. (Ethereum) Smart Contracts Vulnerability Detection](#18-ethereum-smart-contracts-vulnerability-detection)
-    - [1.8.1. Problem](#181-problem)
-    - [1.8.2. Vulnerability of Smart Contract](#182-vulnerability-of-smart-contract)
-    - [1.8.3. Survey](#183-survey)
-    - [1.8.4. Static Vulnerability Detection Methods](#184-static-vulnerability-detection-methods)
-    - [1.8.5. Dynamic Vulnerability Detection Methods](#185-dynamic-vulnerability-detection-methods)
-    - [1.8.6. Machine Learning for Vulnerability Detection](#186-machine-learning-for-vulnerability-detection)
-      - [1.8.6.1. Dataset: Source code - Bytecode](#1861-dataset-source-code---bytecode)
-      - [1.8.6.2. Dataset: Simplified and Extract Features](#1862-dataset-simplified-and-extract-features)
-    - [1.8.7. ContractWard Models](#187-contractward-models)
-    - [1.8.8. BiLSTM-Attention](#188-bilstm-attention)
-    - [1.8.9. Related Work](#189-related-work)
-    - [1.8.10. Reference](#1810-reference)
-  - [1.9. Decentralized Learning for Malware Detection with Blockchain](#19-decentralized-learning-for-malware-detection-with-blockchain)
-    - [1.9.1. Problem](#191-problem)
-    - [1.9.2. Mô hình](#192-mô-hình)
-  - [1.10. Smart Contracct security in Blockchain - Workshop](#110-smart-contracct-security-in-blockchain---workshop)
-  - [1.11. Tools](#111-tools)
+  - [1.6. Oracles](#16-oracles)
+  - [1.7. Bitcoin](#17-bitcoin)
+  - [1.8. EVM-based Blokchain](#18-evm-based-blokchain)
+  - [1.9. Ethereum](#19-ethereum)
+  - [1.10. Smart Contracts](#110-smart-contracts)
+  - [1.11. (Ethereum) Smart Contracts Vulnerability Detection](#111-ethereum-smart-contracts-vulnerability-detection)
+    - [1.11.1. Problem](#1111-problem)
+    - [1.11.2. Vulnerability of Smart Contract](#1112-vulnerability-of-smart-contract)
+    - [1.11.3. Survey](#1113-survey)
+    - [1.11.4. Static Vulnerability Detection Methods](#1114-static-vulnerability-detection-methods)
+    - [1.11.5. Dynamic Vulnerability Detection Methods](#1115-dynamic-vulnerability-detection-methods)
+    - [1.11.6. Machine Learning for Vulnerability Detection](#1116-machine-learning-for-vulnerability-detection)
+      - [1.11.6.1. Dataset: Source code - Bytecode](#11161-dataset-source-code---bytecode)
+      - [1.11.6.2. Dataset: Simplified and Extract Features](#11162-dataset-simplified-and-extract-features)
+    - [1.11.7. ContractWard Models](#1117-contractward-models)
+    - [1.11.8. BiLSTM-Attention](#1118-bilstm-attention)
+    - [1.11.9. Related Work](#1119-related-work)
+    - [1.11.10. Reference](#11110-reference)
+  - [1.12. Decentralized Learning for Malware Detection with Blockchain](#112-decentralized-learning-for-malware-detection-with-blockchain)
+    - [1.12.1. Problem](#1121-problem)
+    - [1.12.2. Mô hình](#1122-mô-hình)
+  - [1.13. Smart Contracct security in Blockchain - Workshop](#113-smart-contracct-security-in-blockchain---workshop)
+  - [1.14. Tools](#114-tools)
 
 ---
 ## 1.2. Reference 
@@ -482,7 +485,7 @@ if __name__ == '__main__':
 ```
 
 ---
-## Oracles 
+## 1.6. Oracles 
 
 :pushpin: Outline
 - Hybrid Smart Contracts
@@ -511,32 +514,32 @@ if __name__ == '__main__':
 
 
 ---
-## 1.6. Bitcoin
+## 1.7. Bitcoin
 ? Bitcoin was one of the first protocols to use this revolutionary technology called "blockchain". Satoshi Nakamoto released Bitcoin's white paper, and it outlined how bitcoin can be used to make peer-to-peer transactions in a decentralized network. This network is powered by cryptography. It allows people to engage in censorship-resistant finance in a decentralized manner. Because of some of bitcoin's characteristics, many people regard it as a superior store of value to other assets such as gold.That's why it is commonly referred to as "digital gold." Similar to gold, there's a scarce and set amount of it on the planet, and people use it to buy and sell, similar to other assets. You can read more about the original vision in the [white paper] (https://bitcoinwhitepaper.co/).
 
 ---
-## EVM-based Blokchain
+## 1.8. EVM-based Blokchain
 
 ![image](https://user-images.githubusercontent.com/108725538/204033182-efc3639c-a49c-4572-8bd8-0cde3f22147b.png)
 
 
 
 ---
-## Ethereum
+## 1.9. Ethereum
 
 ---
-## 1.7. Smart Contracts 
+## 1.10. Smart Contracts 
 
 ---
-## 1.8. (Ethereum) Smart Contracts Vulnerability Detection
+## 1.11. (Ethereum) Smart Contracts Vulnerability Detection
 
-### 1.8.1. Problem
+### 1.11.1. Problem
 
 - The DAO attacks
 - The Parity bug
 
 
-### 1.8.2. Vulnerability of Smart Contract
+### 1.11.2. Vulnerability of Smart Contract
 
 :book: Reentrancy
 
@@ -565,13 +568,13 @@ if __name__ == '__main__':
 :book: Unknown Unknowns
 
 
-### 1.8.3. Survey
+### 1.11.3. Survey
 
 - [ ] Systematic Review of Security Vulnerabilities in Ethereum Blockchain Smart Contract
 - [ ] The State of Ethereum Smart Contracts Security: Vulnerabilities, Countermeasures, and Tool Support
 - [ ] Survey on Blockchain based Smart Contracts: Technical Aspects and Future Research
 
-### 1.8.4. Static Vulnerability Detection Methods
+### 1.11.4. Static Vulnerability Detection Methods
 
 :book: Information Flow Analysis-based
 
@@ -583,20 +586,20 @@ if __name__ == '__main__':
 
 
 
-### 1.8.5. Dynamic Vulnerability Detection Methods
+### 1.11.5. Dynamic Vulnerability Detection Methods
 
 :book: Fuzzing-based
 
 :book: Validation-based
 
-### 1.8.6. Machine Learning for Vulnerability Detection
+### 1.11.6. Machine Learning for Vulnerability Detection
 
-#### 1.8.6.1. Dataset: Source code - Bytecode
+#### 1.11.6.1. Dataset: Source code - Bytecode
 
 - GoogleBig Query
 - Verified Source code in EtherScan.io
 
-#### 1.8.6.2. Dataset: Simplified and Extract Features
+#### 1.11.6.2. Dataset: Simplified and Extract Features
 
 - N-grams
 
@@ -604,35 +607,35 @@ if __name__ == '__main__':
 
 - vectorized smart contract snippet 
 
-### 1.8.7. ContractWard Models
+### 1.11.7. ContractWard Models
 
 - Reference:
   - [ContractWard: Automated Vulnerability Detection Models for Ethereum Smart Contracts](https://ieeexplore.ieee.org/document/8967006)
   - 
 
-### 1.8.8. BiLSTM-Attention
+### 1.11.8. BiLSTM-Attention
 
 - Reference:
   - [Towards Automated Reentrancy Detection for Smart Contracts Based on Sequential Models](https://ieeexplore.ieee.org/document/8970384)
 
 
-### 1.8.9. Related Work 
+### 1.11.9. Related Work 
 
 
 | Model | Method | Capability | Technology | Input | Output | Dataset | evaluate |
 |---| ----| ---| ------| ----| ---| ---| -----|
 |MANDO | Learning heterogeneous graphs | | | source code | 493 | 90.51%|
 
-### 1.8.10. Reference 
+### 1.11.10. Reference 
 
 
 ---
-## 1.9. Decentralized Learning for Malware Detection with Blockchain
+## 1.12. Decentralized Learning for Malware Detection with Blockchain
 
 - [ ] Collective Intelligence: Decentralized Learning for Android Malware Detection in IoT with Blockchain
 - [ ] Record and Reward Federated Learning Contributions with Blockchain
 
-### 1.9.1. Problem
+### 1.12.1. Problem
 Ngữ cảnh:
 - Nhiều dữ liệu với hình thức khác nhau (mạng xh, mẫu mua hàng, hồ sơ chăm sóc sức khoẻ,..) của người dùng bị thu thập và sử dụng phân tích dữ liệu cho ML
 - Cho đi nguồn dữ liệu mà không có phần thưởng
@@ -668,7 +671,7 @@ Hạn chế của người dùng thông qua SC:
 
 Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạt động với triển khai FL trong Python để ghi lại và thưởng cho các record and reward gradients uploads hay không
 
-### 1.9.2. Mô hình
+### 1.12.2. Mô hình
 ![image](https://user-images.githubusercontent.com/108725538/203587328-a5abe2d7-ad54-4f88-ad46-f42a41ccb87e.png)
 
 ![image](https://user-images.githubusercontent.com/108725538/203587407-c34fc618-aef3-493c-9a02-a67eb18f77d8.png)
@@ -687,7 +690,7 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 :pushpin: Reppositories Project 
 
 ---
-##  1.10. Smart Contracct security in Blockchain - Workshop 
+##  1.13. Smart Contracct security in Blockchain - Workshop 
 
 - Anh Trần Ngọc Tín và Nguyễn Minh Quang, BK HCM
 - Verichains 
@@ -706,7 +709,7 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 
 
 ---
-## 1.11. Tools
+## 1.14. Tools
 
 | Name                                   | Github link                                           | Describe |
 | -------------------------------------- | ----------------------------------------------------- | -------- |
