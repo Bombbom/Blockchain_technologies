@@ -37,6 +37,7 @@ Blockchain - All
 
 - https://roadmap.sh/blockchain
 - https://www.blockchain.education/
+- https://docs.google.com/document/d/1in0Gjqu4Uwn50y4bZnnh7IEPW4ZnSRhU-NNRsT5BaRg/edit
 
 
 :book: Book
@@ -67,8 +68,11 @@ Blockchain - All
 
 :book: Youtube
 
-- 
-- 
+- https://www.youtube.com/watch?v=yXUMvyr6n3Y&list=PLTkdJVCW4t6Ap5F3Bul1kv1ZFeJ4loV7X
+- https://www.youtube.com/watch?v=Xb045mCAZHI
+- https://www.youtube.com/watch?v=9Xx46oKfp7c&list=PLTkdJVCW4t6A_ZI8izPdC1HgA5uSE98FW
+- https://www.youtube.com/watch?v=rFdcmujyZOQ&list=PLTkdJVCW4t6D-7gGPzmLG1E4Ri6JNCgAh
+- https://www.youtube.com/watch?v=eRe1sq4eO3k&list=PLTkdJVCW4t6AHefYCs4S1geXNiIvxi1Y3
 
 :book: Github
 
