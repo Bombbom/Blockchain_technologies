@@ -13,24 +13,25 @@ Blockchain - All
   - [1.8. EVM-based Blokchain](#18-evm-based-blokchain)
   - [1.9. Ethereum](#19-ethereum)
   - [1.10. Smart Contracts](#110-smart-contracts)
-  - [1.11. (Ethereum) Smart Contracts Vulnerability Detection](#111-ethereum-smart-contracts-vulnerability-detection)
-    - [1.11.1. Problem](#1111-problem)
-    - [1.11.2. Vulnerability of Smart Contract](#1112-vulnerability-of-smart-contract)
-    - [1.11.3. Survey](#1113-survey)
-    - [1.11.4. Static Vulnerability Detection Methods](#1114-static-vulnerability-detection-methods)
-    - [1.11.5. Dynamic Vulnerability Detection Methods](#1115-dynamic-vulnerability-detection-methods)
-    - [1.11.6. Machine Learning for Vulnerability Detection](#1116-machine-learning-for-vulnerability-detection)
-      - [1.11.6.1. Dataset: Source code - Bytecode](#11161-dataset-source-code---bytecode)
-      - [1.11.6.2. Dataset: Simplified and Extract Features](#11162-dataset-simplified-and-extract-features)
-    - [1.11.7. ContractWard Models](#1117-contractward-models)
-    - [1.11.8. BiLSTM-Attention](#1118-bilstm-attention)
-    - [1.11.9. Related Work](#1119-related-work)
-    - [1.11.10. Reference](#11110-reference)
-  - [1.12. Decentralized Learning for Malware Detection with Blockchain](#112-decentralized-learning-for-malware-detection-with-blockchain)
+  - [1.11. Solidity](#111-solidity)
+  - [1.12. (Ethereum) Smart Contracts Vulnerability Detection](#112-ethereum-smart-contracts-vulnerability-detection)
     - [1.12.1. Problem](#1121-problem)
-    - [1.12.2. Mô hình](#1122-mô-hình)
-  - [1.13. Smart Contracct security in Blockchain - Workshop](#113-smart-contracct-security-in-blockchain---workshop)
-  - [1.14. Tools](#114-tools)
+    - [1.12.2. Vulnerability of Smart Contract](#1122-vulnerability-of-smart-contract)
+    - [1.12.3. Survey](#1123-survey)
+    - [1.12.4. Static Vulnerability Detection Methods](#1124-static-vulnerability-detection-methods)
+    - [1.12.5. Dynamic Vulnerability Detection Methods](#1125-dynamic-vulnerability-detection-methods)
+    - [1.12.6. Machine Learning for Vulnerability Detection](#1126-machine-learning-for-vulnerability-detection)
+      - [1.12.6.1. Dataset: Source code - Bytecode](#11261-dataset-source-code---bytecode)
+      - [1.12.6.2. Dataset: Simplified and Extract Features](#11262-dataset-simplified-and-extract-features)
+    - [1.12.7. ContractWard Models](#1127-contractward-models)
+    - [1.12.8. BiLSTM-Attention](#1128-bilstm-attention)
+    - [1.12.9. Related Work](#1129-related-work)
+    - [1.12.10. Reference](#11210-reference)
+  - [1.13. Decentralized Learning for Malware Detection with Blockchain](#113-decentralized-learning-for-malware-detection-with-blockchain)
+    - [1.13.1. Problem](#1131-problem)
+    - [1.13.2. Mô hình](#1132-mô-hình)
+  - [1.14. Smart Contracct security in Blockchain - Workshop](#114-smart-contracct-security-in-blockchain---workshop)
+  - [1.15. Tools](#115-tools)
 
 ---
 ## 1.2. Reference 
@@ -68,17 +69,24 @@ Blockchain - All
 
 :book: Youtube
 
-- https://www.youtube.com/watch?v=yXUMvyr6n3Y&list=PLTkdJVCW4t6Ap5F3Bul1kv1ZFeJ4loV7X
-- https://www.youtube.com/watch?v=Xb045mCAZHI
-- https://www.youtube.com/watch?v=9Xx46oKfp7c&list=PLTkdJVCW4t6A_ZI8izPdC1HgA5uSE98FW
-- https://www.youtube.com/watch?v=rFdcmujyZOQ&list=PLTkdJVCW4t6D-7gGPzmLG1E4Ri6JNCgAh
-- https://www.youtube.com/watch?v=eRe1sq4eO3k&list=PLTkdJVCW4t6AHefYCs4S1geXNiIvxi1Y3
+[![Blockchain Siêu cơ bản](https://img.youtube.com/vi/yXUMvyr6n3Y/0.jpg)](https://www.youtube.com/watch?v=yXUMvyr6n3Y)
+
+[![Blockchain: Security & Compliance](https://img.youtube.com/vi/wqbIB_hUbdc/0.jpg)](https://www.youtube.com/watch?v=wqbIB_hUbdc)
+
+[![ERC20](https://img.youtube.com/vi/Xb045mCAZHI/0.jpg)](https://www.youtube.com/watch?v=Xb045mCAZHI)
+
+[![NFT seri Part1: the ERC721 Standard](https://img.youtube.com/vi/9Xx46oKfp7c/0.jpg)](https://www.youtube.com/watch?v=9Xx46oKfp7c)
+
+[![NFT Seri Part II](https://img.youtube.com/vi/rFdcmujyZOQ/0.jpg)](https://www.youtube.com/watch?v=rFdcmujyZOQ)
+
+[![NFT seri Part III](https://img.youtube.com/vi/eRe1sq4eO3k/0.jpg)](https://www.youtube.com/watch?v=eRe1sq4eO3k)
+
 
 :book: Github
 
 - https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer 
 - https://github.com/spo0ds/Deep-Dive-into-DEFI
-- 
+
 
 ---
 ## 1.3. Basic Blockchain Knowledge
@@ -87,7 +95,7 @@ Blockchain - All
 
 - What is Blockchain?
 
-> A digital database orr ledger that is distributed among the nodes of peer-to-peer network
+> A digital database or ledger that is distributed among the nodes of peer-to-peer network
 
 ![image](https://user-images.githubusercontent.com/108725538/203267392-687a7551-109b-4e1f-8582-b83ab8555a1e.png)
 
@@ -123,6 +131,21 @@ Blockchain - All
 - Application and uses of Blockchain technology
 
 ![image](https://user-images.githubusercontent.com/108725538/203267465-94873e81-13ca-409f-a7ab-831de6c8cc33.png)
+
+
+- DAOs
+> DAOS are organizations that live online and live in smart contracts. They're similar to regular organizations in the traditional world, but they have people who may hold governance tokens to make voting decisions or they may do all the governance on-chain on this decentralized settlement layer, giving us the freedom to engage with each other as we please.
+
+![](Asset/20221202143547.png) 
+
+![](Asset/20221202143643.png)  
+
+- Token-Based DAO: Token-Based DAO như tên gọi, token chiếm một vai trò quan trọng đối với sự vận hành của DAO. Đây là loại hình phổ biến nhất vì token là mạch máu và đang hiện diện ở mọi nơi trong crypto: 
+  - Từ các blockchain như Bitcoin, Ethereum: Miner đảm bảo tính bảo mật cho mạng lưới đổi lại nhận được phần thưởng token.
+  - Cho đến các protocol như Maker DAO, Uniswap, Sushiswap…: Token holders có quyền biểu quyết cho các quyết định trong protocol
+- Organization (Shared-based DAO): Organization (Shared-based DAO) đại diện cho một nhóm, tổ chức có chung mục tiêu trong một lĩnh vực nào đó, điển hình như các Ventures DAO tập trung vào việc đầu tư. Các thành viên sẽ dùng shares (cổ phần) để biểu quyết hoạt động của tổ chức. 
+
+![](Asset/20221202143858.png)  
 
 
 ---
@@ -537,7 +560,7 @@ if __name__ == '__main__':
 
 
 ---
-## Solidity
+## 1.11. Solidity
 
 :bookmark: Reference 
 
@@ -545,15 +568,15 @@ if __name__ == '__main__':
 
 
 ---
-## 1.11. (Ethereum) Smart Contracts Vulnerability Detection
+## 1.12. (Ethereum) Smart Contracts Vulnerability Detection
 
-### 1.11.1. Problem
+### 1.12.1. Problem
 
 - The DAO attacks
 - The Parity bug
 
 
-### 1.11.2. Vulnerability of Smart Contract
+### 1.12.2. Vulnerability of Smart Contract
 
 :book: Reentrancy
 
@@ -582,13 +605,13 @@ if __name__ == '__main__':
 :book: Unknown Unknowns
 
 
-### 1.11.3. Survey
+### 1.12.3. Survey
 
 - [ ] Systematic Review of Security Vulnerabilities in Ethereum Blockchain Smart Contract
 - [ ] The State of Ethereum Smart Contracts Security: Vulnerabilities, Countermeasures, and Tool Support
 - [ ] Survey on Blockchain based Smart Contracts: Technical Aspects and Future Research
 
-### 1.11.4. Static Vulnerability Detection Methods
+### 1.12.4. Static Vulnerability Detection Methods
 
 :book: Information Flow Analysis-based
 
@@ -600,20 +623,20 @@ if __name__ == '__main__':
 
 
 
-### 1.11.5. Dynamic Vulnerability Detection Methods
+### 1.12.5. Dynamic Vulnerability Detection Methods
 
 :book: Fuzzing-based
 
 :book: Validation-based
 
-### 1.11.6. Machine Learning for Vulnerability Detection
+### 1.12.6. Machine Learning for Vulnerability Detection
 
-#### 1.11.6.1. Dataset: Source code - Bytecode
+#### 1.12.6.1. Dataset: Source code - Bytecode
 
 - GoogleBig Query
 - Verified Source code in EtherScan.io
 
-#### 1.11.6.2. Dataset: Simplified and Extract Features
+#### 1.12.6.2. Dataset: Simplified and Extract Features
 
 - N-grams
 
@@ -621,35 +644,37 @@ if __name__ == '__main__':
 
 - vectorized smart contract snippet 
 
-### 1.11.7. ContractWard Models
+### 1.12.7. ContractWard Models
 
 - Reference:
   - [ContractWard: Automated Vulnerability Detection Models for Ethereum Smart Contracts](https://ieeexplore.ieee.org/document/8967006)
   - 
 
-### 1.11.8. BiLSTM-Attention
+### 1.12.8. BiLSTM-Attention
 
 - Reference:
   - [Towards Automated Reentrancy Detection for Smart Contracts Based on Sequential Models](https://ieeexplore.ieee.org/document/8970384)
 
 
-### 1.11.9. Related Work 
+### 1.12.9. Related Work 
 
 
 | Model | Method | Capability | Technology | Input | Output | Dataset | evaluate |
 |---| ----| ---| ------| ----| ---| ---| -----|
 |MANDO | Learning heterogeneous graphs | | | source code | 493 | 90.51%|
 
-### 1.11.10. Reference 
+### 1.12.10. Reference 
 
 
 ---
-## 1.12. Decentralized Learning for Malware Detection with Blockchain
+## 1.13. Decentralized Learning for Malware Detection with Blockchain
 
 - [ ] Collective Intelligence: Decentralized Learning for Android Malware Detection in IoT with Blockchain
 - [ ] Record and Reward Federated Learning Contributions with Blockchain
+- [ ] https://github.com/sreyafrancis/BlockchainForFederatedLearning
 
-### 1.12.1. Problem
+
+### 1.13.1. Problem
 Ngữ cảnh:
 - Nhiều dữ liệu với hình thức khác nhau (mạng xh, mẫu mua hàng, hồ sơ chăm sóc sức khoẻ,..) của người dùng bị thu thập và sử dụng phân tích dữ liệu cho ML
 - Cho đi nguồn dữ liệu mà không có phần thưởng
@@ -685,7 +710,7 @@ Hạn chế của người dùng thông qua SC:
 
 Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạt động với triển khai FL trong Python để ghi lại và thưởng cho các record and reward gradients uploads hay không
 
-### 1.12.2. Mô hình
+### 1.13.2. Mô hình
 ![image](https://user-images.githubusercontent.com/108725538/203587328-a5abe2d7-ad54-4f88-ad46-f42a41ccb87e.png)
 
 ![image](https://user-images.githubusercontent.com/108725538/203587407-c34fc618-aef3-493c-9a02-a67eb18f77d8.png)
@@ -704,7 +729,7 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 :pushpin: Reppositories Project 
 
 ---
-##  1.13. Smart Contracct security in Blockchain - Workshop 
+##  1.14. Smart Contracct security in Blockchain - Workshop 
 
 - Anh Trần Ngọc Tín và Nguyễn Minh Quang, BK HCM
 - Verichains 
@@ -723,7 +748,7 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 
 
 ---
-## 1.14. Tools
+## 1.15. Tools
 
 | Name                                   | Github link                                           | Describe |
 | -------------------------------------- | ----------------------------------------------------- | -------- |
