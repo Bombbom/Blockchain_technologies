@@ -534,6 +534,16 @@ if __name__ == '__main__':
 ---
 ## 1.10. Smart Contracts 
 
+
+
+---
+## Solidity
+
+:bookmark: Reference 
+
+:bookmark: Roadmap
+
+
 ---
 ## 1.11. (Ethereum) Smart Contracts Vulnerability Detection
 
