@@ -567,6 +567,30 @@ if __name__ == '__main__':
 :bookmark: Roadmap
 
 
+- Solidity 
+- Install the Solidity Compiler
+- Layout of a Solidity Source File 
+- Sutucture of a Contract 
+- Types
+- Units and Globally Available Variables 
+- Expressions and Control Structures 
+- Contracts 
+- Inline Asssembly 
+- Cheatsheet
+- Language Grammar 
+- Using the Compiler 
+- Analysis the Compiler Output
+- Solidity IR-bassed Coddegen Changes 
+- Layout of State Variables in Storage
+- Layout in Memory 
+- Layout of Call data
+- Cleaning Up Variables 
+_ Source Mappings 
+- The Optimizer 
+- Contract Metadata 
+- Contract ABI Specification
+
+
 ---
 ## 1.12. (Ethereum) Smart Contracts Vulnerability Detection
 
