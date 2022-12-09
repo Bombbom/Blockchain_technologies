@@ -32,6 +32,7 @@ Blockchain - All
     - [1.13.2. Mô hình](#1132-mô-hình)
   - [1.14. Smart Contracct security in Blockchain - Workshop](#114-smart-contracct-security-in-blockchain---workshop)
   - [1.15. Tools](#115-tools)
+  - [SEC554](#sec554)
 
 ---
 ## 1.2. Reference 
@@ -64,8 +65,19 @@ Blockchain - All
 
 :book: Paper
 
-- 
-- 
+<!-- Security Strengths and Weaknesses of Blockchain Smart Contract System: A Survey
+Ethereum smart contract security research: survey and future research opportunities
+Smart contract security: A software lifecycle perspective
+Ethainter: a smart contract security analyzer for composite vulnerabilities
+NeuCheck: A more practical Ethereum smart contract security analysis tool
+Smart contract: Attacks and protections
+Smart contract vulnerability analysis and security audite
+Security analysis methods on ethereum smart contract vulnerabilities: a survey
+Smart contract privacy protection using AI in cyber-physical systems: tools, techniques and challenges
+LedgerHedger: Gas Reservation for Smart-Contract Security
+Combining graph neural networks with expert knowledge for smart contract vulnerability detection
+Security checklists for Ethereum smart contract development: patterns and best practices
+Exploring Security Practices of Smart Contract Developers -->
 
 :book: Youtube
 
@@ -87,6 +99,10 @@ Blockchain - All
 - https://github.com/spo0ds/Journey-to-become-a-Blockchain-Engineer 
 - https://github.com/spo0ds/Deep-Dive-into-DEFI
 
+
+:book: Tools
+
+:book: 
 
 ---
 ## 1.3. Basic Blockchain Knowledge
@@ -799,3 +815,9 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 | Zeus                                   |                                                       |          |
 | EtherTrust                             |                                                       |          |
 | MaintiCore                             | https://github.com/trailofbits/manticore              |          |
+
+
+
+
+## SEC554
+
