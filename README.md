@@ -32,7 +32,9 @@ Blockchain - All
     - [1.13.2. Mô hình](#1132-mô-hình)
   - [1.14. Smart Contracct security in Blockchain - Workshop](#114-smart-contracct-security-in-blockchain---workshop)
   - [1.15. Tools](#115-tools)
-  - [SEC554](#sec554)
+  - [1.16. SEC554](#116-sec554)
+  - [Fuzzing](#fuzzing)
+  - [1.17. Capture the Flag and Wargames](#117-capture-the-flag-and-wargames)
 
 ---
 ## 1.2. Reference 
@@ -93,6 +95,8 @@ Exploring Security Practices of Smart Contract Developers -->
 
 [![NFT seri Part III](https://img.youtube.com/vi/eRe1sq4eO3k/0.jpg)](https://www.youtube.com/watch?v=eRe1sq4eO3k)
 
+[![Blockchain Tutorial | What Is Blockchain | Intellipaat](https://img.youtube.com/vi/E_KQ69soVak/0.jpg)](https://www.youtube.com/watch?v=E_KQ69soVak)
+
 
 :book: Github
 
@@ -100,9 +104,25 @@ Exploring Security Practices of Smart Contract Developers -->
 - https://github.com/spo0ds/Deep-Dive-into-DEFI
 
 
-:book: Tools
+:book: Security Journal list
 
-:book: 
+-   IEEE Transactions on Information Forensics and Security [[web]](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206)
+-   Computer & Security [[web]](http://www.elsevier.com/wps/find/journaldescription.cws_home/405877/description#description)
+-   IET Information Security [[web]](http://www.ietdl.org/IET-IFS)
+-   ACM Transactions on Information and System Security [[web]](http://tissec.acm.org/)
+-   International Journal of Information Security [[web]](http://www.springerlink.com/content/107927/)
+-   Security and Communication Networks [[web]](http://www.wiley.com/bw/journal.asp?ref=1939-0114)
+-   IEEE Security & Privacy [[web]](http://www.computer.org/portal/web/security/home)
+-   IEEE Transactions on Dependable and Secure Computing  [[web]](http://www.computer.org/tdsc/)
+-   Security and Communication Networks [[web]](http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1939-0122)
+-   Computer Fraud & Security [[web]](http://www.elsevierscitech.com/nl/cfs/home.asp)
+
+
+:book: Cheatsheet
+
+- https://intellipaat.com/blog/tutorial/blockchain-tutorial/blockchain-cheat-sheet/
+
+
 
 ---
 ## 1.3. Basic Blockchain Knowledge
@@ -580,6 +600,9 @@ if __name__ == '__main__':
 
 :bookmark: Reference 
 
+- https://github.com/manojpramesh/solidity-cheatsheet
+
+
 :bookmark: Roadmap
 
 
@@ -784,8 +807,15 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 
 - https://cystack.net/blog
 - https://github.com/cystack/security-audit-reports/tree/main/smart-contracts
-- 
 
+:pushpin: Smart contract checklists
+
+
+-   [Solidity Auditing Checklistt](https://github.com/cryptofinlabs/audit-checklist)
+-   [SMART CONTRACT SECURITY CHECKLIST](https://ethereum.org/en/developers/tutorials/secure-development-workflow/)
+-   [Smart Contract Security Audit: Intro & Top 5 Best Practices](https://www.getastra.com/blog/security-audit/smart-contract-security/)
+-   [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
+-   [Security checklists for Ethereum smart contract development](https://arxiv.org/pdf/2008.04761)
 
 ---
 ## 1.15. Tools
@@ -815,11 +845,24 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 | Zeus                                   |                                                       |          |
 | EtherTrust                             |                                                       |          |
 | MaintiCore                             | https://github.com/trailofbits/manticore              |          |
+<!-- 
+-   [abi-decompiler](https://github.com/beched/abi-decompiler) - EVM reverse engineering helper utility
+-   [ethereum-dasm](https://github.com/tintinweb/ethereum-dasm) - EVM disassembler with static and dynamic analysis abilities, including function signature lookup
+-   [Ethersplay](https://github.com/trailofbits/ethersplay) - Visual disassembler for EVM bytecode built on Binary Ninja
+-   [evmlab](https://github.com/ethereum/evmlab) - Utilities for interacting with the Ethereum virtual machine
+-   [IDA-EVM](https://github.com/trailofbits/ida-evm) - IDA plugin to view EVM instructions
+-   [Panoramix](http://eveem.org/about)
+-   [pyevmasm](https://github.com/trailofbits/pyevmasm) - EVM assembler and disassembler with a CLI and a Python API
+-   [Rattle](https://github.com/trailofbits/rattle) - EVM binary static analysis framework. Produces SSA representations of EVM code. -->
+<!-- -   [Web3 Decoder](https://github.com/nccgroup/web3-decoder) - Web3 Decoder is a Burp Suite Extension that helps to analyze what is going on with the operations involving smart contracts of the web3
+-   [Echidna](https://github.com/trailofbits/echidna) - Fuzzer for Ethereum smart contracts. Uses property testing to generate malicious inputs that break smart contracts.
+-   [Manticore](https://github.com/trailofbits/manticore) - Symbolic execution tool for Ethereum smart contracts that includes detectors for common security flaws
+-   [Mythril OSS](https://github.com/ConsenSys/mythril/) - Open-source security analysis tool for Ethereum smart contracts built around detector modules
+-   [Securify v2.0](https://github.com/eth-sri/securify2) - Static analysis tool from ChainSecurity
+-   [Slither](https://github.com/trailofbits/slither) - Static analysis framework, written in Python, with detectors for many common Solidity issues
+-   [Octopus](https://github.com/pventuzelo/octopus) - : Blockchain Smart Contracts (BTC/ETH/NEO/EOS) -->
 
-
-
-
-## SEC554
+## 1.16. SEC554
 
 ![image](https://user-images.githubusercontent.com/108725538/206638629-e46e3159-b335-4892-a51a-4dd9876b1f5e.png)
 
@@ -873,3 +916,30 @@ Proof of Concept: tìm cách trả lời liệu một blockchain có thể hoạ
 
 
 
+------
+## Fuzzing
+
+- https://github.com/Microsvuln/Awesome-Ethereum-Fuzzing
+- 
+
+## 1.17. Capture the Flag and Wargames
+
+-   [Capture the Ether](https://capturetheether.com/)
+-   [The Ethernaut](https://ethernaut.openzeppelin.com/)
+    -   https://blog.trailofbits.com/2017/11/06/hands-on-the-ethernaut-ctf/
+-   [Etherhack](https://etherhack.positive.com/)
+-   [Security Innovation Blockchain CTF](https://blockchain-ctf.securityinnovation.com/)
+-   [Ciphershastra CTF](https://ciphershastra.com/)
+-   [Defi Hack](https://www.defihack.xyz/)
+-   [Gacha Lab (BSC Testnet)](https://gachalab.inspex.co/)
+-   [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+
+-   [Ethernaut - Naught Coin (ERC20) Exploitation](https://medium.com/coinmonks/ethernaut-naught-coin-erc20-exploitation-218c86bb953b) - Writeup for a vulnerable ERC20 from the Ethernaut CTF.
+
+-   [EtherHack CTF Writeup](https://blog.positive.com/phdays-8-etherhack-contest-writeup-794523f01248) - Writeup for EtherHack CTF challenges.
+
+-   [PolySwarm Smart Contract Hacking Challenge Writeup](https://raz0r.name/writeups/polyswarm-smart-contract-hacking-challenge-writeup/) - Demonstrates advanced use of Manticore
+
+-   [Write up of Metaplex Vuln 2022](https://github.com/Bonfida/metaplex-vulnerability-012022)
+
+-   [Smart Contract security audit reports](https://github.com/TechRate/Smart-Contract-Audits)
